@@ -1,0 +1,105 @@
+body{
+  margin:0;
+  padding: 0;
+
+  color:#333;
+
+  font-family: Calibri;
+  font-size: 1.2em;
+  background-color: #eee;
+}
+
+#wrapper{
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#wrapper table{
+  width: 60vw;
+  border: 0.3em solid black;
+  border-radius: 10px;
+  border-collapse: collapse;
+}
+
+#wrapper table tr{
+}
+
+#wrapper table tr:nth-child(2n+1){
+  background-color: #bdb;
+}
+
+#wrapper table th, td{
+  padding: 0.3em;
+}
+
+#wrapper table th{
+  background-color: black;
+  color: white;
+}
+
+#wrapper table td{
+  width: 60vw;
+  border: 0.1em solid black;
+}
+
+#wrapper table td a{
+  font-weight: bold;
+}
+
+#wrapper table td a:visited{
+  color:#666;
+}
+
+#linkWrapper{
+  width: 60vw;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  align-self:center;
+  margin-top: 1em
+}
+
+#linkWrapper a{
+  display:block;
+  padding:0.4em;
+
+  background-color: white;
+
+  border:0.1em solid #ddd;
+  border-radius: 0.1em;
+
+  text-decoration: none;
+}
+
+#linkWrapper a:visited{
+  color: #333;
+}
+
+#indexLinkWrapper{
+  width: 30em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self:center;
+
+}
+
+#indexLinkWrapper a{
+  width: 100%;
+  background-color: black;
+  color:white;
+
+  font-size: 2em;
+  text-decoration: none;;
+
+  display:block;
+  padding:0.2em;
+  border:0.3em solid white;
+  border-radius: 0.1em;
+  margin:0.3em;
+}
